@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise of the Aircraft Carrier</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0E3650;
+            color: #fff;
+        }
+        header {
+            background-color: #002147;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 36px;
+            border-bottom: 2px solid #fff;
+            margin-bottom: 20px;
+        }
+        .carrier-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #0056B3;
+        }
+        section {
+            padding: 20px;
+            text-align: justify;
+            border-bottom: 2px solid #fff;
+            margin-bottom: 20px;
+        }
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #002147;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-top: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Rise of the Aircraft Carrier
+    </header>
+    <img class="carrier-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/USS_Philippine_Sea_%28CVA-47%29_underway_at_sea_on_9_July_1955_%2880-G-K-18429%29.jpg/640px-USS_Philippine_Sea_%28CVA-47%29_underway_at_sea_on_9_July_1955_%2880-G-K-18429%29.jpg" alt="Aircraft Carrier" width="600">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#early-stages">Early Stages of the Carrier</a>
+        <a href="#wwii">The Second World War</a>
+        <a href="#battleship-vs-carrier">The Battleship vs. The Carrier</a>
+        <a href="#lasting-impact">Lasting Impact</a>
+    </nav>
+    <section id="about">
+        <h2>About the Rise of Aircraft Carriers</h2>
+        <p>Aircraft carriers emerged as a dominant force during World War II, revolutionizing naval warfare. They provided unmatched flexibility and firepower, enabling naval forces to project air power far beyond the reach of land-based aircraft.</p>
+    </section>
+    <section id="early-stages">
+        <h2>Early Stages of the Carrier</h2>
+        <p>The development of aircraft carriers began in the early 20th century, with experiments in converting ships for aircraft operations. These early stages laid the foundation for the powerful naval vessels that would later dominate the seas.</p>
+        <a href="early_stages.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/USS_Langley_%28CV-1%29_underway_in_June_1927_%28cropped%29.jpg" alt="Early Stages of the Carrier" width="600"></a>
+    </section>
+    <section id="wwii">
+        <h2>The Second World War</h2>
+        <p>Aircraft carriers played pivotal roles in major naval battles such as the Battle of Midway and the Battle of the Coral Sea, where carrier-based aircraft clashed in historic engagements that shifted the balance of power in the Pacific theater.</p>
+        <a href="wwii.html"><img src="https://www.historyonthenet.com/wp-content/uploads/2017/03/71380-004-B4724C34.jpg" alt="WWII" width="600"></a>
+    </section>
+    <section id="battleship-vs-carrier">
+        <h2>The Battleship vs. The Carrier</h2>
+        <p>The rivalry between battleships and aircraft carriers became apparent during World War II. The carrier's ability to project power over vast distances and launch devastating air strikes changed naval warfare forever.</p>
+        <a href="battleship_vs_carrier.html"><img src="https://www.historyonthenet.com/wp-content/uploads/2019/02/WW2-Navies.jpg" alt="Battleship vs. Carrier" width="600"></a>
+    </section>
+    <section id="lasting-impact">
+        <h2>Lasting Impact</h2>
+        <p>The rise of aircraft carriers had a lasting impact on naval strategy and doctrine. Their versatility and effectiveness in projecting power reshaped military operations and influenced geopolitical dynamics in the decades that followed.</p>
+        <a href="lasting_impact.html"><img src="https://media.defense.gov/2022/Oct/04/2003090520/-1/-1/0/220413-N-OH637-1019.JPG" alt="Lasting Impact" width="600"></a>
+    </section>
+    <footer>
+      Rise of the Aircraft Carrier
+    </footer>
+</body>
+</html>
